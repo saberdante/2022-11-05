@@ -6,6 +6,7 @@ const TEMPLATE_CONFIG = [
     desc: `
     
       ![](https://mmbiz.qpic.cn/mmbiz_gif/rcAjicibQf6ScaNse2GhHQU1o01eeOrAbjQQ6kicTpgDia6vkCe4DH5lVwVgibMrGZFG02vqeumiao9wBahvzRxU1EZA/0?wx_fmt=gif)
+      
       **{{tian_api_morning_greeting.DATA}}**
       
       今天是**{{date.DATA}}**
