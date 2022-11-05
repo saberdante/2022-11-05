@@ -30,8 +30,12 @@ const TEMPLATE_CONFIG = [
       牛牛解忧杂货店铺温馨提示： {{notice.DATA}}
       
       ---
+   
+      今日课表：{{course_schedule.DATA}}
       
-      {{birthday_message.DATA}}
+      ---
+      
+      顺便说一下：{{birthday_message.DATA}}
       
       ---
       
