@@ -43,6 +43,9 @@ const TEMPLATE_CONFIG = [
       
       {{note_ch.DATA}}
       
+      ---
+      
+      今日热搜：{{tian_api_network_hot.DATA}}
     `
   },
   {
