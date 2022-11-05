@@ -21,13 +21,11 @@ const TEMPLATE_CONFIG = [
       
       气温(最高/最低):  {{max_temperature.DATA}} / {{min_temperature.DATA}}
       
-      风向/风级:  {{wind_direction.DATA}}{{wind_scale.DATA}}
-      
-      日出/日落： {{sunrise.DATA}} / {{sunset.DATA}}
+      今日降雨量：{{tian_api_weather_pcpn_0.DATA}}
       
       预防感冒提醒： {{ganmao.DATA}}
       
-      牛牛解忧杂货店铺温馨提示： {{notice.DATA}}
+      牛牛解忧杂货店铺温馨提示： {{tian_api_weather_tips_0.DATA}}
       
       ---
    
@@ -42,10 +40,7 @@ const TEMPLATE_CONFIG = [
       {{note_en.DATA}}
       
       {{note_ch.DATA}}
-      
-      ---
-      
-      今日热搜：{{tian_api_network_hot.DATA}}
+   
     `
   },
   {
