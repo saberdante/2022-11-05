@@ -6,6 +6,7 @@ const TEMPLATE_CONFIG = [
     desc: `
     
       ![](https://mmbiz.qpic.cn/mmbiz_gif/rcAjicibQf6ScaNse2GhHQU1o01eeOrAbjQQ6kicTpgDia6vkCe4DH5lVwVgibMrGZFG02vqeumiao9wBahvzRxU1EZA/0?wx_fmt=gif)
+      **{{tian_api_morning_greeting.DATA}}**
       
       今天是**{{date.DATA}}**
       
@@ -15,17 +16,17 @@ const TEMPLATE_CONFIG = [
       
       下面为您播报**{{city.DATA}}**今天的天气 o(〃'▽'〃)o 
       
-      **{{city.DATA}}**今天的天气是$\color{blue}{{{weather.DATA}}}$
+      **{{city.DATA}}**今天的天气是：  {{weather.DATA}}
       
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      气温(最高/最低):  {{max_temperature.DATA}} / {{min_temperature.DATA}}
       
-      风向/风级: {{wind_direction.DATA}}{{wind_scale.DATA}}
+      风向/风级:  {{wind_direction.DATA}}{{wind_scale.DATA}}
       
-      日出/日落：{{sunrise.DATA}} / {{sunset.DATA}}
+      日出/日落： {{sunrise.DATA}} / {{sunset.DATA}}
       
-      预防感冒提醒：{{ ganmao.DATA }}
+      预防感冒提醒： {{ganmao.DATA}}
       
-      牛牛解忧杂货店铺温馨提示：{{ notice.DATA }}
+      牛牛解忧杂货店铺温馨提示： {{notice.DATA}}
       
       ---
       
@@ -33,7 +34,10 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      > {{tian_api_morning_greeting.DATA}}
+      {{note_en.DATA}}
+      
+      {{note_ch.DATA}}
+      
     `
   },
   {
