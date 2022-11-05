@@ -21,11 +21,11 @@ const TEMPLATE_CONFIG = [
       
       气温(最高/最低):  {{max_temperature.DATA}} / {{min_temperature.DATA}}
       
-      今日降雨量：{{tian_api_weather_pcpn_0.DATA}}
+      今日降雨量：{{tian_api_weather_pcpn_{0}.DATA}}
       
       预防感冒提醒： {{ganmao.DATA}}
       
-      牛牛解忧杂货店铺温馨提示： {{tian_api_weather_tips_0.DATA}}
+      牛牛解忧杂货店铺温馨提示： {{tian_api_weather_tips_{0}.DATA}}
       
       ---
    
