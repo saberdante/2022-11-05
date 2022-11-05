@@ -2,37 +2,38 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '## 又是元气满满的一天！ Cinky！',
     desc: `
-      **{{date.DATA}}**
+    
+      ![](https://mmbiz.qpic.cn/mmbiz_gif/rcAjicibQf6ScaNse2GhHQU1o01eeOrAbjQQ6kicTpgDia6vkCe4DH5lVwVgibMrGZFG02vqeumiao9wBahvzRxU1EZA/0?wx_fmt=gif)
       
-      下个休息日：{{holidaytts.DATA}}
+      今天是**{{date.DATA}}**
+      
+      不用看日历了：{{holidaytts.DATA}}
       
       ---
       
-      城市：{{city.DATA}}
+      下面为您播报**{{city.DATA}}**今天的天气 o(〃'▽'〃)o 
       
-      天气：{{weather.DATA}}
+      **{{city.DATA}}**今天的天气是$\color{blue}{{{weather.DATA}}}$
       
       气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
       
-      风向: {{wind_direction.DATA}}
+      风向/风级: {{wind_direction.DATA}}{{wind_scale.DATA}}
       
-      风级: {{wind_scale.DATA}}
+      日出/日落：{{sunrise.DATA}} / {{sunset.DATA}}
       
-      {{comprehensive_horoscope.DATA}}
+      预防感冒提醒：{{ ganmao.DATA }}
+      
+      牛牛解忧杂货店铺温馨提示：{{ notice.DATA }}
       
       ---
-      
-      今天是我们相识的第{{love_day.DATA}}天
       
       {{birthday_message.DATA}}
       
       ---
       
-      {{moment_copyrighting.DATA}}
-      
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
+      > {{tian_api_morning_greeting.DATA}}
     `
   },
   {
