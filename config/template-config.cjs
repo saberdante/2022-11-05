@@ -29,7 +29,7 @@ const TEMPLATE_CONFIG = [
       
       ---
    
-      今日课表：{{course_schedule.DATA}}
+      **{{course_schedule.DATA}}**
       
       ---
       
