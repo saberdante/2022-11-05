@@ -29,7 +29,7 @@ const TEMPLATE_CONFIG = [
       
       ---
    
-      **{{course_schedule.DATA}}**
+      {{course_schedule.DATA}}
       
       ---
       
